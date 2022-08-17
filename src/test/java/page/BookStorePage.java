@@ -39,7 +39,7 @@ public class BookStorePage extends BasePage{
 	
 	public void adicionarLivro() {
 		dsl.clicarBotaoXpath("//button[.='Add To Your Collection']");
-System.out.println("adicionou livro");
+
 	}
 	
 	
@@ -51,12 +51,12 @@ System.out.println("adicionou livro");
 	public void alertOk() throws InterruptedException {
 		Thread.sleep(2000);
 		dsl.alertaConfirmed();
-		System.out.println("clicou alert");
+		
 	}
 	
 	public void clicarPerfil() {
 		dsl.teste("//span[.='Profile']");
-		System.out.println("clicou perfil");
+		
 
 	}
 	
