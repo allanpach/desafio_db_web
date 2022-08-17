@@ -1,0 +1,11 @@
+page\CartPage.class
+test\SmokeTestRealizarCompra.class
+core\DSL.class
+core\BasePage.class
+page\RegisterPage.class
+core\BaseTest.class
+page\InventarioPage.class
+core\DriverFactory.class
+core\Propriedades.class
+suit\SuitTest.class
+page\LoginPage.class
